@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>The Conlangjugator</title>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+<style>
+.tabs 
+	{
+	margin:  0;
+	padding: 0;
+	list-style: none;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	}
+.tabs__item {display: table-cell;}
+.tabs__link {display: block;}
+.primary-nav
+	{
+	text-align: center;
+	border-radius: 8px;
+	overflow: hidden;
+	}
+.primary-nav a
+	{
+	padding: 3px;
+	text-decoration: none;
+	}
+.pnb a {background-color: #5454d9;color: #fff;border:1px solid #2525a7;}
+.pnb a:hover {background-color: #2525a7;}
+.png a {background-color: #96d954;color: #fff;border:1px solid #66a725;}
+.png a:hover {background-color: #66a725;}
+.pnm a {background-color: #54b8d9;color: #fff;border:1px solid #2587a7;}
+.pnm a:hover {background-color: #2587a7;}
+.btm
+	{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	}
+.all
+	{
+	width: 100%;
+	height: 100%:
+	padding: 0px;
+	}
+.bld {font-weight: bold;}
+html,body { height:100%;overflow: hidden; }
+table {border-collapse: collapse;}
+table, th, td {border: 1px solid gray;}
+</style>
+</head>
+<body>
+	<div class="container-fluid" style = 'width:100%;height:100%;'>
+		<div class="row" id='projectsbar'>
+			<ul id="projectsid" class='tabs  primary-nav pnb'>
+			</ul>
+		</div>
+		
+		<div class="row" id = 'modes'>
+			<ul id="modesid" class='tabs  primary-nav png'>
+			</ul>
+		</div>
+		
+		<div class="row" id = 'buttons'>
+			<ul id="buttonsid" class='tabs  primary-nav pnm'>
+			</ul>
+		</div>
+		
+		<div class="row" id = 'subtabs'>
+			<ul id="tab2" class='tabs  primary-nav pnb'>
+			</ul>
+		</div>
+		
+		<div class="row all" id='outputrow' style='width:100%; position:absolute; bottom:0px;top:200px;'>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="settings.js"></script>
+	<script type="text/javascript" src="commands.js"></script>
+	<script type="text/javascript" src="templates.js"></script>
+	<script type="text/javascript" src="projects.js"></script>
+	<script type="text/javascript" src="interfaceBuilder.js"></script>
+	<script type="text/javascript" src="init.js"></script>
+	<script type="text/javascript" src="base.js"></script>
+	<script type="text/javascript" src="parser.js"></script>
+	<script type="text/javascript" src="filesaver/FileSaver.js"></script>
+	<script type="text/javascript" src="base64/base64js.min.js"/></script>
+</body>
+</html>
