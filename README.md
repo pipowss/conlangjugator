@@ -1,5 +1,5 @@
 ## This is not mine.
-See the original [on gitlab](https://gitlab.com/sfpublic/conlangjugator)
+See the original [on gitlab](https://gitlab.com/sfpublic/conlangjugator).
 
 The Conlangjugator
 ==================
