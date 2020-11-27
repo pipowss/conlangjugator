@@ -1,5 +1,5 @@
 ## This is not mine.
-See the original here: https://gitlab.com/sfpublic/conlangjugator
+See the original [on gitlab](https://gitlab.com/sfpublic/conlangjugator)
 
 The Conlangjugator
 ==================
@@ -8,9 +8,7 @@ The Conlangjugator is an all-purpose tool designed to aid conlanging.
 
 ## Usage
 
-* Download the project (from the cloud icon in the upper right, to the right of `Find file`).
-* Open folder `src`.
-* Open `conlangjugator.html` with your browser.
+[Run it on your browser](https://liquidponiard.github.io/conlangjugator)
 
 So far tested only with FF 63, but it should work with any modern browser.
 
